@@ -1,0 +1,10 @@
+echo "# How to build a RESTful API with Docker, PostgreSQL, and go-chi" >> README.md
+git init
+git add README.md
+git commit -m "ini commit"
+git branch -M master
+git remote add origin https://github.com/sabmile/rest-api-docker-postgre-go-chi.git
+git remote set-url origin git@github.com:sabmile/rest-api-docker-postgre-go-chi.git
+git remote -v
+git push -u origin master
+
